@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://namespaces.plone.org/diazo"
+       xmlns:css="http://namespaces.plone.org/diazo/css"
+       xmlns:xhtml="http://www.w3.org/1999/xhtml"
+       xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+       xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <notheme if="/html/body/div[not(@id='visual-portal-wrapper')]"/>
+
+  <theme href="/++framework++plone/index.html"/>
+
+  <!-- Head rules
+       ================================================================== -->
+  <xi:include href="/++framework++plone/rules/head/ie-classes.xml"/>
+  <xi:include href="/++framework++plone/rules/head/base.xml"/>
+  <xi:include href="/++framework++plone/rules/head/css.xml"/>
+  <xi:include href="/++framework++plone/rules/head/js.xml"/>
+  <xi:include href="/++framework++plone/rules/head/icons.xml"/>
+  <xi:include href="/++framework++plone/rules/utility/responsify.xml"/>
+
+  <!-- Body rules
+       ================================================================== -->
+
+  <!-- Change the logo in content and the copy the portal-top children -->
+  <xi:include href="/++framework++plone/rules/logo/default-56.xml"/>
+  <xi:include href="/++framework++plone/rules/utility/structures.xml"/>
+
+  <!-- Copy over the content -->
+  <xi:include href="/++framework++plone/rules/content.xml"/>
+  
+</rules>
