@@ -26,13 +26,17 @@ diazotheme.newtheme and we will copy the 'responsive' theme in this
 package.
 
 1. Created the diazotheme.newtheme package (for instance through paster).
+
 2. Copy diazotheme.plone/diazotheme/plone/responsive to
    diazotheme.newtheme/diazotheme/newtheme/responsive.
+
 3. Rename diazotheme.newtheme/diazotheme/newtheme/responsive
    to diazotheme.newtheme/diazotheme/newtheme/static (arbitrary
    name).
+
 4. Add `<plone:static directory="static" name="newtheme" type="theme"/>`
    to diazotheme.newtheme/diazotheme/newtheme/configure.zcml.
+
 5. Change diazotheme.newtheme/diazotheme/newtheme/static/manifest.cfg
    to reflect the changes, so:  
    
@@ -49,8 +53,10 @@ Again, lets assume we use the 'responsive' theme and we want to end up
 with the 'newtheme' name.
 
 1. Copy diazotheme.plone/diazotheme/plone/responsive to your file system.
+
 2. Rename 'responsive' to 'newtheme' (the folder name wil become the
    theme name in the theme panel)
+
 3. Change newtheme/manifest.cfg
    to reflect the changes, so:  
    
@@ -63,6 +69,8 @@ with the 'newtheme' name.
         preview = preview.png
    
 4. Customize your theme.
-5. When you are finished customizing, create a zip archive of the 'newtheme'
-   folder.
+
+5. When you are finished customizing, create a zip archive of the 
+   'newtheme' folder.
+
 6. Upload the newtheme.zip in the plone theme panel.
