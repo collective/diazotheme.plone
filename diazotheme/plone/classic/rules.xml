@@ -7,7 +7,7 @@
   <!-- The condition makes sure that theme is only applied when served in the 
        plone main_template. This is necessary for functional edit popups in 
        Tiny, for example. -->
-  <theme href="index.html" css:if-content="#visual-portal-wrapper"/>
+  <theme href="/++framework++plone/classic/index.html" css:if-content="#visual-portal-wrapper"/>
 
   <!-- Head rules
        ================================================================== -->
@@ -39,7 +39,7 @@
        intact, then move the whole portal top over to the theme. -->
   <replace css:content="#portal-logo > img">
     <img>
-      <xsl:attribute name="src">/++theme++classic/img/logo.jpg</xsl:attribute>
+      <xsl:attribute name="src">/++framework++plone/classic/img/logo.jpg</xsl:attribute>
       <xsl:attribute name="width">252</xsl:attribute>
       <xsl:attribute name="height">57</xsl:attribute>
       <xsl:attribute name="title">

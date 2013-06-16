@@ -7,7 +7,7 @@
   <!-- The condition makes sure that theme is only applied when served in the 
        plone main_template. This is necessary for functional edit popups in 
        Tiny, for example. -->
-  <theme href="index.html" css:if-content="#visual-portal-wrapper"/>
+  <theme href="/++framework++plone/sunburst/index.html" css:if-content="#visual-portal-wrapper"/>
 
   <!-- Head rules
        ================================================================== -->
@@ -55,7 +55,7 @@
   <!-- Change the logo in content and the copy the portal-top children -->
   <replace css:content="#portal-logo > img">
     <img>
-      <xsl:attribute name="src">/++theme++sunburst/img/logo.png</xsl:attribute>
+      <xsl:attribute name="src">/++framework++plone/sunburst/img/logo.png</xsl:attribute>
       <xsl:attribute name="width">215</xsl:attribute>
       <xsl:attribute name="height">56</xsl:attribute>
       <xsl:attribute name="title">
