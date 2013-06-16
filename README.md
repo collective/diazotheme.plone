@@ -9,7 +9,7 @@ add to in a Diazo theme.*
 How to setup a Diazo Framework
 ------------------------------
 A framework package is set up as follows:
-- **diazoframework.name**  
+- **diazoframework.name:**  
   I tend to use paster to create the package scaffolding. 
   - **diazoframework**
     - **name**
@@ -23,7 +23,7 @@ A framework package is set up as follows:
           as little as possible for future upgrading of 
           the files. All changes you make here you will also 
           have to make in future versions of the framework.
-        - **rules**
+        - **rules**  
           CSS frameworks generally work by delivering styles
           and functionality for specific html structures.  
           The rules folder contains diazo rule snippets, that 
@@ -33,7 +33,7 @@ A framework package is set up as follows:
           and remold the html in a generic way.  
           The rules files can be included through XIncludes 
           into a diazotheme.
-        - **preview.png**
+        - **preview.png**  
           I like to provide a generic thumbnail for the theme
           panel.
       - **__init__.py**
