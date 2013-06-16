@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://namespaces.plone.org/diazo"
+       xmlns:css="http://namespaces.plone.org/diazo/css"
+       xmlns:xhtml="http://www.w3.org/1999/xhtml"
+       xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <!-- The condition makes sure that theme is only applied when served in the 
+       plone main_template. This is necessary for functional edit popups in 
+       Tiny, for example. -->
+  <theme href="index.html" css:if-content="#visual-portal-wrapper"/>
+
+  <!-- Head rules
+       ================================================================== -->
+
+  <!-- Attributes -->
+  <copy attributes="*" css:theme="html" css:content="html"/>
+
+  <!-- Pull in Plone Meta -->
+  <before css:theme="title" css:content="meta" />
+
+  <!-- Base tag -->
+  <before css:theme-children="head" css:content="base"/>
+
+  <!-- Title -->
+  <replace css:theme="title" css:content="title" />
+
+  <!-- Style -->
+  <!-- Move all the styles in the head before our styles so we can override
+       them when necessary. -->
+  <before css:theme="head link" css:content="head link"/>
+  <before css:theme="head link" css:content="head style"/>
+
+  <!-- Scripts -->
+  <after css:theme="head link" css:content="head script"/>
+
+  <!-- Body rules
+       ================================================================== -->
+  <!-- Change the logo on the content sidee while keeping the alt and title 
+       intact, then move the whole portal top over to the theme. -->
+  <replace css:content="#portal-logo > img">
+    <img>
+      <xsl:attribute name="src">/++theme++classic/img/logo.jpg</xsl:attribute>
+      <xsl:attribute name="width">252</xsl:attribute>
+      <xsl:attribute name="height">57</xsl:attribute>
+      <xsl:attribute name="title">
+        <xsl:value-of select="./@title"/>
+      </xsl:attribute>
+      <xsl:attribute name="alt">
+        <xsl:value-of select="./@alt"/>
+      </xsl:attribute>
+    </img>
+  </replace>
+  <before css:theme="#clear-space-before-wrapper-table" css:content="#portal-top"/>
+  
+  <!-- Move the contents of the portal columns over to the theme and drop the 
+       columns in the theme if they are missing in the content. -->
+  <copy css:theme="#portal-column-one" css:content-children="#portal-column-one"/>
+  <drop css:theme="#portal-column-one" if-content="not(//*[@id='portal-column-one'])"/>
+  <copy css:theme="#portal-column-content" css:content-children="#portal-column-content"/>
+  <copy css:theme="#portal-column-two" css:content-children="#portal-column-two"/>
+  <drop css:theme="#portal-column-two" if-content="not(//*[@id='portal-column-two'])"/>
+  
+  <!-- Move the remaining portals, scripts and spinners -->
+  <after css:theme-children="#clear-space-before-footer" css:content="#portal-footer"/>
+  <after css:theme-children="#clear-space-before-footer" css:content="#portal-colophon"/>
+  <after css:theme-children="#clear-space-before-footer" css:content="#portal-siteactions"/>
+  <after css:theme-children="#clear-space-before-footer" css:content="#visual-portal-wrapper > script"/>
+  <after css:theme-children="#visual-portal-wrapper" css:content="#spinner"/>
+
+</rules>

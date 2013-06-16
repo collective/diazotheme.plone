@@ -5,6 +5,8 @@
 
   <five:registerPackage package="." />
 
-  <plone:static directory="responsive" name="responsive" type="theme"/>
+  <plone:static directory="classic" name="plone-classic" type="theme"/>
+  <plone:static directory="responsive" name="plone-responsive" type="theme"/>
+  <plone:static directory="sunburst" name="plone-sunburst" type="theme"/>
 
 </configure>
