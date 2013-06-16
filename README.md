@@ -34,7 +34,8 @@ package.
 4. Add `<plone:static directory="static" name="newtheme" type="theme"/>`  
    to diazotheme.newtheme/diazotheme/newtheme/configure.zcml.
 5. Change diazotheme.newtheme/diazotheme/newtheme/static/manifest.cfg
-   to reflect the changes, so:  
+   to reflect the changes, so:
+
         [theme]
         title = New theme
         description = Describe the new theme
@@ -50,7 +51,8 @@ Again, lets assume we the 'responsive' theme.
 2. Rename 'responsive' to 'newtheme' (the folder name wil become the
    theme name in the theme panel)
 3. Change newtheme/manifest.cfg
-   to reflect the changes, so:  
+   to reflect the changes, so:
+
         [theme]
         title = New theme
         description = Describe the new theme
@@ -58,6 +60,7 @@ Again, lets assume we the 'responsive' theme.
         prefix = /++theme++newtheme
         doctype = <!DOCTYPE html>
         preview = preview.png
+
 4. Customize your theme.
 5. When you are finished customizing, create a zip archive of the 'newtheme'
    folder.
