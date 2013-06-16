@@ -29,9 +29,9 @@ package.
 2. Copy diazotheme.plone/diazotheme/plone/responsive to
    diazotheme.newtheme/diazotheme/newtheme/responsive.
 3. Rename diazotheme.newtheme/diazotheme/newtheme/responsive
-   to diazotheme.newtheme/diazotheme/newtheme/static (arbitrary 
+   to diazotheme.newtheme/diazotheme/newtheme/static (arbitrary
    name).
-4. Add `<plone:static directory="static" name="newtheme" type="theme"/>`  
+4. Add `<plone:static directory="static" name="newtheme" type="theme"/>`
    to diazotheme.newtheme/diazotheme/newtheme/configure.zcml.
 5. Change diazotheme.newtheme/diazotheme/newtheme/static/manifest.cfg
    to reflect the changes, so:
