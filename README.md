@@ -4,7 +4,10 @@ This package contains diazo implementations of
 [plonetheme.classic](https://github.com/plone/plonetheme.classic)
 and
 [plonetheme.sunburst](https://github.com/plone/plonetheme.sunburst),
-to be used with theme base "(unstyled)". 
+to be used with theme base "(unstyled)". It also has a theme to 
+responsify 
+[plonetheme.sunburst](https://github.com/plone/plonetheme.sunburst) 
+through diazo, to be used with theme base "Sunburst theme".
 
 
 Any of the three theme folders can be used to create your own child
