@@ -21,8 +21,8 @@ How to create a child theme
 There are two ways of creating a child theme.
 
 ### The package way
-For this example, lets assume we've created a package called
-diazotheme.newtheme and we've copied the 'responsive' theme in this 
+For this example, lets assume we are creating a package called
+diazotheme.newtheme and we will copy the 'responsive' theme in this 
 package.
 
 1. Created the diazotheme.newtheme package (for instance through paster).
@@ -45,7 +45,8 @@ package.
         preview = preview.png
 
 ### The zipfile way
-Again, lets assume we the 'responsive' theme.
+Again, lets assume we use the 'responsive' theme and we want to end up
+with the 'newtheme' name.
 
 1. Copy diazotheme.plone/diazotheme/plone/responsive to your file system.
 2. Rename 'responsive' to 'newtheme' (the folder name wil become the
