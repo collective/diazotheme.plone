@@ -87,6 +87,39 @@ with the 'newtheme' name.
 6. Upload the ``newtheme.zip`` in the plone theme panel.
 
 
+Screenshots
+===========
+
+Diazo Framework Plone Classic Theme
+-----------------------------------
+
+Layout of the site when viewed in a computer resolution:
+
+.. image:: https://github.com/TH-code/diazotheme.plone/raw/master/docs/screenshot0.png
+  :alt: Diazo Framework Plone Classic Theme
+  :align: center
+
+
+Diazo Framework Sunburst Theme
+------------------------------
+
+Layout of the site when viewed in a computer resolution:
+
+.. image:: https://github.com/TH-code/diazotheme.plone/raw/master/docs/screenshot1.png
+  :alt: Diazo Framework Sunburst Theme
+  :align: center
+
+
+Diazo Framework Sunburst Responsive Theme
+-----------------------------------------
+
+A demo of different views that show the responsive support as a reduced view for Mobile/Tablet devices look like the following:
+
+.. image:: https://github.com/TH-code/diazotheme.plone/raw/master/docs/screenshot2.png
+  :alt: Diazo Framework Sunburst Responsive Theme
+  :align: center
+
+
 Requirements
 ============
 
