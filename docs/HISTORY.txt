@@ -4,7 +4,11 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Updated the diazo manifest file [macagua]
+- Added improvements about README file
+  [macagua]
+
+- Updated the diazo manifest file
+  [macagua]
 
 
 1.0 (2014-09-28)
