@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='diazotheme.plone',
       version=version,
-      description="A Diazo Themes implementation for Twitter Bootstrap CSS",
+      description="A Diazo Themes implementation for Plone Default Themes",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       classifiers=[
