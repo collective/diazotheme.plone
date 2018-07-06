@@ -5,9 +5,11 @@ version = '1.0'
 
 setup(name='diazotheme.plone',
       version=version,
-      description="A Diazo Themes implementation for Plone Default Themes",
+      description="The Diazo Themes implementation for Plone Default Themes",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
+      # Get more strings from
+      # https://pypi.org/pypi?:action=list_classifiers
       classifiers=[
         "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
@@ -28,7 +30,7 @@ setup(name='diazotheme.plone',
         "Topic :: Internet",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
-      keywords='web zope plone theme diazo twitter bootstrap css framework',
+      keywords='web zope plone classic sunburst theme diazo respond.js deco-grid',
       author='Thijs Jonkman',
       author_email='t.jonkman@gmail.com',
       maintainer='Leonardo Caballero',
