@@ -95,7 +95,7 @@ Diazo Framework Plone Classic Theme
 
 Layout of the site when viewed in a computer resolution:
 
-.. image:: https://github.com/TH-code/diazotheme.plone/raw/master/docs/screenshot0.png
+.. image:: https://github.com/collective/diazotheme.plone/raw/master/docs/screenshot0.png
   :alt: Diazo Framework Plone Classic Theme
   :align: center
 
@@ -105,7 +105,7 @@ Diazo Framework Sunburst Theme
 
 Layout of the site when viewed in a computer resolution:
 
-.. image:: https://github.com/TH-code/diazotheme.plone/raw/master/docs/screenshot1.png
+.. image:: https://github.com/collective/diazotheme.plone/raw/master/docs/screenshot1.png
   :alt: Diazo Framework Sunburst Theme
   :align: center
 
@@ -115,7 +115,7 @@ Diazo Framework Sunburst Responsive Theme
 
 A demo of different views that show the responsive support as a reduced view for Mobile/Tablet devices look like the following:
 
-.. image:: https://github.com/TH-code/diazotheme.plone/raw/master/docs/screenshot2.png
+.. image:: https://github.com/collective/diazotheme.plone/raw/master/docs/screenshot2.png
   :alt: Diazo Framework Sunburst Responsive Theme
   :align: center
 
@@ -196,8 +196,8 @@ following resources files:
 Contribute
 ==========
 
-- Issue Tracker: https://github.com/TH-code/diazotheme.plone/issues
-- Source Code: https://github.com/TH-code/diazotheme.plone
+- Issue Tracker: https://github.com/collective/diazotheme.plone/issues
+- Source Code: https://github.com/collective/diazotheme.plone
 
 
 License
@@ -217,12 +217,12 @@ Amazing contributions
 
 - Leonardo J. Caballero G. aka macagua (leonardocaballero at gmail dot com).
 
-You can find an updated list of package contributors on https://github.com/TH-code/diazotheme.plone/contributors
+You can find an updated list of package contributors on https://github.com/collective/diazotheme.plone/contributors
 
 .. _`Sunburst Theme`: https://github.com/plone/plonetheme.sunburst
 .. _`plonetheme.classic`: https://github.com/plone/plonetheme.classic
 .. _`plonetheme.sunburst`: https://github.com/plone/plonetheme.sunburst
 .. _`diazoframework.plone`: https://github.com/TH-code/diazoframework.plone
-.. _`diazotheme.plone`: https://github.com/TH-code/diazotheme.plone
+.. _`diazotheme.plone`: https://github.com/collective/diazotheme.plone
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
