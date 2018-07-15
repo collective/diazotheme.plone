@@ -222,7 +222,7 @@ You can find an updated list of package contributors on https://github.com/colle
 .. _`Sunburst Theme`: https://github.com/plone/plonetheme.sunburst
 .. _`plonetheme.classic`: https://github.com/plone/plonetheme.classic
 .. _`plonetheme.sunburst`: https://github.com/plone/plonetheme.sunburst
-.. _`diazoframework.plone`: https://github.com/TH-code/diazoframework.plone
+.. _`diazoframework.plone`: https://github.com/collective/diazoframework.plone
 .. _`diazotheme.plone`: https://github.com/collective/diazotheme.plone
 .. _`Diazo`: http://diazo.org
 .. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
