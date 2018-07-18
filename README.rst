@@ -164,6 +164,28 @@ Or, you can add it as a dependency on your own product ``setup.py`` file: ::
     ],
 
 
+Enabling the theme
+------------------
+
+Select and enable the theme from the Diazo control panel. That's it!
+
+
+Enabling the Plone Classic Theme
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Plone Classic Theme need changes the ``Theme base`` value default for use it, 
+them you need to do the following steps:
+
+#. Go to ``Advanced settings`` tab from the Diazo control panel.
+
+#. Click ``Theme base`` list and select ``Plone Classic Theme``.
+
+#. And click on ``Save`` button.
+
+#. Next go to the ``Themes`` tab from the Diazo control panel, select and 
+   enable the ``Plone Classic (Diazo Framework)`` theme. That's it!
+
+
 Resources
 =========
 
