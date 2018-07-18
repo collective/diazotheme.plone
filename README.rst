@@ -170,25 +170,57 @@ Resources
 This package is the parent of all Plone diazo themes and 
 provides rule that are practical to use in other diazo themes.
 
-The resources of this framework can be reached through 
-``/++theme++plone`` and there are placed at 
-``diazotheme.plone/diazotheme/plone/`` directory with 
-following resources files:
+
+Plone Classic Theme
+-------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++plone-classic``
+
+There are placed at ``diazotheme.plone/diazotheme/plone/classic`` 
+directory with following resources files:
 
 ::
-      
+
     _ classic
-      Provides the resources from *plonetheme.classic*.
+      Provides the resources from "plonetheme.classic" theme.
       _ manifest.cfg
       _ rules.xml
-      
+
+
+Plone Sunburst Theme
+--------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++plone-sunburst``
+
+There are placed at ``diazotheme.plone/diazotheme/plone/sunburst`` 
+directory with following resources files:
+
+::
+
     _ sunburst
-      Provides the resources from *plonetheme.sunburst*.
+      Provides the resources from "plonetheme.sunburst" theme.
       _ manifest.cfg
       _ rules.xml
-      
+
+
+Plone Sunburst Responsive Theme
+-------------------------------
+
+The resources of this theme can be reached through
+
+    ``/++theme++plone-responsive``
+
+There are placed at ``diazotheme.plone/diazotheme/plone/responsive`` 
+directory with following resources files:
+
+::
+
     _ responsive
-      Provides the resources from *plonetheme.sunburst* theme with responsive supported.
+      Provides the resources from "plonetheme.sunburst" theme with responsive supported.
       _ manifest.cfg
       _ rules.xml
 
