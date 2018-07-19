@@ -7,7 +7,7 @@ setup(name='diazotheme.plone',
       version=version,
       description="The Diazo Themes implementation for Plone Default Themes",
       long_description=open("README.rst").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+                       open("CHANGES.txt").read(),
       # Get more strings from
       # https://pypi.org/pypi?:action=list_classifiers
       classifiers=[
