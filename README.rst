@@ -7,7 +7,7 @@ Introduction
 ============
 
 ``diazotheme.plone`` package provides diazo themes based on the `Sunburst Theme`_ 
-using the **theming** and **packaging** features available for create Diazo_ theme
+using the **theming** and **packaging** features available for create `Diazo`_ theme
 using `plone.app.theming`_.
 
 ``diazotheme.plone`` package contains the following diazo implementations: 
@@ -274,9 +274,9 @@ Amazing contributions
 You can find an updated list of package contributors on https://github.com/collective/diazotheme.plone/contributors
 
 .. _`Sunburst Theme`: https://github.com/plone/plonetheme.sunburst
+.. _`Diazo`: http://diazo.org
+.. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
 .. _`plonetheme.classic`: https://github.com/plone/plonetheme.classic
 .. _`plonetheme.sunburst`: https://github.com/plone/plonetheme.sunburst
 .. _`diazoframework.plone`: https://github.com/collective/diazoframework.plone
 .. _`diazotheme.plone`: https://github.com/collective/diazotheme.plone
-.. _`Diazo`: http://diazo.org
-.. _`plone.app.theming`: https://pypi.org/project/plone.app.theming/
